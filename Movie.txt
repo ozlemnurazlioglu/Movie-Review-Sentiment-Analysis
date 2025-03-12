@@ -1,0 +1,66 @@
+Overview
+
+This project performs sentiment analysis on movie reviews using machine learning techniques. The dataset consists of positive and negative movie reviews, which are preprocessed and classified using a Support Vector Machine (SVM) model.
+
+Features
+
+Reads movie reviews from text files
+
+Preprocesses the data by removing empty reviews
+
+Converts text data into numerical vectors using TF-IDF
+
+Splits the dataset into training and testing sets
+
+Trains a sentiment classification model using a Linear Support Vector Classifier (SVC)
+
+Evaluates model performance with accuracy, confusion matrix, and classification report
+
+Technologies Used
+
+Python
+
+Pandas
+
+Scikit-learn
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/movie-review-classification.git
+cd movie-review-classification
+
+Install the required dependencies:
+
+pip install -r requirements.txt
+
+Run the script:
+
+python sentiment_analysis.py
+
+Dataset
+
+The dataset consists of two folders:
+
+neg/: Contains negative movie reviews.
+
+pos/: Contains positive movie reviews.
+
+Each file represents a single review.
+
+How It Works
+
+Load Data: Reads text files from positive and negative review folders.
+
+Preprocessing: Checks for missing values and removes blank reviews.
+
+Vectorization: Converts text data into numerical form using TF-IDF.
+
+Model Training: Trains a Support Vector Machine (SVM) classifier.
+
+Evaluation: Tests the model and provides performance metrics.
+
+Results
+
+The model's accuracy, confusion matrix, and classification report are displayed at the end of execution.
